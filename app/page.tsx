@@ -7,11 +7,11 @@ export default function Home() {
       <main>
         <div className="fixed w-full">
         <div className="bg-[#f5f5f5]">
-          <div className="px-[16rem] flex justify-end bg-">
-            <img className="h-[2.2rem]" src="/top-links.png" alt="" />
+          <div className="px-[16rem] flex max-sm:flex-col max-sm:px-[1rem] justify-end">
+            <img className="h-[2.2rem] max-sm:h-[1.6rem]" src="/top-links.png" alt="" />
           </div>
-          <div className="cursor-pointer flex justify-between items-center px-[16rem]  pb-[.8rem]">
-            <img src="/logo2.png" alt="" />
+          <div className="cursor-pointer flex justify-between items-center max-sm:items-start max-sm:flex-col px-[16rem] max-sm:px-[1rem]  pb-[.8rem]">
+            <img className="max-sm:h-[4rem]" src="/logo2.png" alt="" />
             <div className="text-[.8rem] text-[#002a7e]">
               <div className="text-[.8rem] text-[#002a7e]">
                 <a
@@ -36,7 +36,7 @@ export default function Home() {
                   ClN:U85110GJ2012SGC071667
                 </a>
               </div>
-              <div className="mt-[.6rem] w-full flex justify-end">
+              <div className="mt-[.6rem] w-full flex justify-end max-sm:justify-normal">
                 <input className="p-[.3rem]" type="text" placeholder="Search" />
                 <div className="flex justify-center items-center h-[2rem] w-[2rem] bg-[#006592] text-white text-[1.1rem]">
                   {" "}
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="px-[16rem] flex justify-start items-center bg-[#006592] text-[.9rem] font-semibold capitalize">
+        <div className="max-sm:hidden px-[16rem] max-sm:w-full max-sm:px-[1rem] max-sm:flex-col flex justify-start items-center bg-[#006592] text-[.9rem] font-semibold capitalize">
           <li className="px-[1rem] py-[.6rem] text-white cursor-pointer border-r-[.2rem] transition-colors duration-200 hover:bg-[#004562] border-[#176e96]">
             home
           </li>
@@ -75,17 +75,17 @@ export default function Home() {
         </div>
         {/* -------------------------------------------- */}
 
-        <section className="pt-[11.5rem] px-[16rem] py-[1rem] flex justify-center gap-[1rem] h-full w-full">
-          <div className="flex flex-col gap-[1.6rem] h-full w-[150rem] ">
+        <section className="pt-[11.5rem] px-[16rem] max-sm:px-[1rem] py-[1rem] flex max-sm:flex-col justify-center gap-[1rem] h-full w-full">
+          <div className="flex flex-col gap-[1.6rem] h-full w-[150rem] max-sm:w-full">
             <div className="p-[.4rem] h-[18rem] w-full shadow-[0_0px_8px_rgba(0,0,0,1)]">
-              <img src="/Banner_1_1_3.jpg" alt="" />
+              <img className="h-full w-full" src="/Banner_1_1_3.jpg" alt="" />
             </div>
             <div>
               <div className="px-[.4rem] overflow-hidden flex items-center h-[2.2rem] w-full text-[1rem] rounded-[.4rem] text-[#006592] bg-[#d4e1f4]">
                 અગત્યની નોધ : આવતીકાલે તા. 03/10/2023 ના રોજ ખરીદ સમિતીની મિટીગ
                 હોવાથી મેનેજીગ{" "}
               </div>
-              <div className="mt-[.8rem] flex gap-[1.4rem]">
+              <div className="mt-[.8rem] flex max-sm:flex-col gap-[1.4rem]">
                 <div className="h-[26rem] w-full border-[1.5px] rounded-[1rem] border-[#006592] ">
                   <div className="flex items-center px-[.6rem] py-[.6rem] gap-[.4rem] border-b-[1.5px] border-[#006592]">
                     {" "}
@@ -156,7 +156,7 @@ export default function Home() {
 </div>
                 </div>
               </div>
-              <div className="mt-[1.4rem] flex gap-[1.4rem]">
+              <div className="mt-[1.4rem] flex max-sm:flex-col gap-[1.4rem]">
                 <div className="h-[30rem] w-full border-[1.5px] rounded-[1rem] border-[#006592] ">
                   <div className="flex items-center px-[.6rem] py-[.6rem] gap-[.4rem] border-b-[1.5px] border-[#006592]">
                     {" "}
@@ -200,8 +200,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="overflow-hidden  mt-[1.4rem] h-[27rem] w-full border-[1.5px] rounded-[1rem] border-[#006592] ">
-                <div className="flex items-center border-b-[1.5px] font-normal text-[.95rem] text-[#104572] capitalize border-[#006592] ">
-                  <li className="px-[.5rem] py-[.8rem] border-r-[1.5px] border-[#006592] hover:bg-[#e7e7e7]">
+                <div className="flex items-center  border-b-[1.5px] font-normal text-[.95rem] text-[#104572] capitalize border-[#006592] ">
+                  <li className=" max-sm:h-full px-[.5rem] py-[.8rem] border-r-[1.5px] border-[#006592] hover:bg-[#e7e7e7]">
                     news
                   </li>
                   <li className="px-[.5rem] py-[.8rem] border-r-[1.5px] border-[#006592] hover:bg-[#e7e7e7]">
@@ -384,7 +384,7 @@ export default function Home() {
 </div>
 
 
-<footer className="px-[16rem] py-[1.2rem] flex justify-between text-[.75rem] bg-[#006592] text-white">
+<footer className="px-[16rem] max-sm:px-[1rem] py-[1.2rem] flex justify-between text-[.75rem] bg-[#006592] text-white">
  <div className="flex flex-col gap-[.5rem]">
   <p>Home | Contact | E-Citizen | Disclaimer | Privacy Policy | Accessibility Statement | Help | Sitemap | Feedback</p>
    <p>Copyright 0 2023 Gujarat Medical Services Corporation Limited. All rights Reserved</p>
